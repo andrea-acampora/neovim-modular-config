@@ -17,6 +17,7 @@ require('lazy').setup({
   -- modular approach: using `require 'path.name'` will
   -- include a plugin definition from file lua/path/name.lua
 
+  require 'plugins.alpha',
   require 'plugins.gitsigns',
   require 'plugins.telescope',
   require 'plugins.blink-cmp',
@@ -26,6 +27,8 @@ require('lazy').setup({
   require 'plugins.autopairs',
   require 'plugins.neo-tree',
   require 'plugins.lualine',
+  require 'plugins.toggleterm',
+  require 'plugins.noice'
   --  require 'plugins.snacks'
 
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
